@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
+    'App\\Detail' => $baseDir . '/app/Detail.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
@@ -24,6 +25,8 @@ return array(
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
+    'App\\Shoppings' => $baseDir . '/app/Shoppings.php',
+    'App\\Type' => $baseDir . '/app/Type.php',
     'App\\User' => $baseDir . '/app/User.php',
     'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
     'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
@@ -67,6 +70,7 @@ return array(
     'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedListFilter' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedListFilter.php',
     'DeepCopy\\TypeFilter\\TypeFilter' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
     'DeepCopy\\TypeMatcher\\TypeMatcher' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
+    'DetailsTableSeeder' => $baseDir . '/database/seeds/DetailsTableSeeder.php',
     'DivisionByZeroError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
     'Doctrine\\Common\\Inflector\\Inflector' => $vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
     'Doctrine\\Common\\Lexer\\AbstractLexer' => $vendorDir . '/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php',
@@ -3284,6 +3288,7 @@ return array(
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
     'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => $vendorDir . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
     'TypeError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
+    'UsersTableSeeder' => $baseDir . '/database/seeds/UsersTableSeeder.php',
     'Webmozart\\Assert\\Assert' => $vendorDir . '/webmozart/assert/src/Assert.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
     'Whoops\\Exception\\Formatter' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Formatter.php',
