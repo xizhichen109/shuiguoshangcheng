@@ -1,0 +1,34 @@
+body,html{
+    height: 100%;
+    background: url("/assets/img/bg/3.jpg") no-repeat 0 0;
+    padding-top: 51px;
+}
+/*头部样式*/
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+}
+.navbar .header_nav{
+    padding: 0;
+}
+.navbar .log_title a{
+    line-height: 50px;
+}
+.navbar .log_title img{
+    margin-bottom: 12px;
+}
+.navbar .left_nav{
+    padding: 6px 0 0 0;
+    display: flex;
+    flex-direction:row-reverse;
+}
+.navbar .left_nav .wrapper_public{
+   margin-left: 50px;
+}
+.navbar .left_nav>div:first-child{
+    margin-left: 50px;
+}
+
